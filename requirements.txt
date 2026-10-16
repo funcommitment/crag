@@ -6,5 +6,5 @@ langchain-groq
 chromadb
 rank_bm25
 sentence-transformers
-docling
+langchain_docling
 python-dotenv
