@@ -9,4 +9,5 @@ langchain-groq
 chromadb
 rank_bm25
 sentence-transformers
-langchain_docling
+docling
+docling-parse
