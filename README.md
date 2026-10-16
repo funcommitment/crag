@@ -30,8 +30,14 @@ The pipeline runs a continuous trace: Grader → Rewriter → Search → Generat
 While benchmarked on the DPDP Act, this architecture natively supports *any* dense legal or regulatory corpus out of the box. 
 * **Why it matters:** The agentic verification loop (Hybrid Search → Grader → HyDE → Fallback) is entirely decoupled from the data. Because it relies on systemic logic rather than hardcoded rules, adapting this zero-hallucination pipeline to entirely different high-stakes domains—like preventive healthcare datasets or financial compliance—requires only swapping the ingested PDFs and basic system prompt tweaks.
 
+### 6. Hierarchical Document Parsing (Docling)
+Standard PDF loaders destroy structural formatting, which is fatal for legal documents reliant on strict parent-child clause relationships. 
+* **The Implementation:** I used `DoclingLoader` to parse the DPDP Act. This preserves the hierarchical DOM of the document (headers, nested lists, tables) before text splitting. 
+* **Why it matters:** It ensures that chunks are divided by semantic boundaries rather than arbitrary character counts, preventing fragmented retrieval and giving the LLM the exact structural context it needs to reason accurately.
+
 ## 🛠 Tech Stack
 * **Language & Orchestration:** Python, LangChain, Groq API (`openai/gpt-oss-120b`)
+* **Ingestion & Parsing:** docling (Hierarchical PDF Parsing)
 * **Retrieval & Ranking:** ChromaDB (Dense Vectors), BM25 (Sparse Index), Cross-Encoder (Reranking)
 * **Testing:** Automated LLM-as-a-Judge Evaluation Loop
 * **Frontend:** Streamlit
