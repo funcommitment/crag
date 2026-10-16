@@ -8,3 +8,5 @@ rank_bm25
 sentence-transformers
 langchain_docling
 python-dotenv
+safetensors
+torch
