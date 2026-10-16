@@ -3,7 +3,7 @@ import chromadb
 from rank_bm25 import BM25Okapi
 
 def hybrid_search(splited_chunks):
-    embedding_model = SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2",local_files_only=True)
+    embedding_model = SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2")
     client = chromadb.PersistentClient(path="./chroma_db")
     collection = client.get_or_create_collection("dp_dp_legal_documents")
 
