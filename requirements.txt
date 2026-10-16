@@ -1,5 +1,7 @@
 --extra-index-url https://download.pytorch.org/whl/cpu
 torch
+torchvision
+torchaudio
 safetensors
 streamlit
 langchain
@@ -9,5 +11,6 @@ langchain-groq
 chromadb
 rank_bm25
 sentence-transformers
+langchain-docling
 docling
 docling-parse
