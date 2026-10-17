@@ -1,0 +1,820 @@
+id,category,question,ground_truth,llm_only_answer,rag_answer,verifier_verdict
+1,synthetic,"According to the notification, what is the exact time frame within which objections and suggestions must be submitted after the Official Gazette copies were made available to the public?","Objections and suggestions must be submitted before the expiry of the period of forty‑five days from 3 January 2025, i.e., by 17 February 2025.","According to the notification issuing the **Data Protection Framework (DPDP) Rules, 2023**, any person may file objections or suggestions **within 30 days** of the date on which the Official Gazette copies of the Rules are made publicly available.  
+
+*In other words, the deadline for submitting objections or suggestions expires 30 calendar days after the Gazette publication.*","The notification states that objections and suggestions had to be received **“before the expiry of the period of forty‑five days from the date on which copies of the Official Gazette … were made available to public.”**  
+
+Since the Gazette copies were made available on **3 January 2025**, the deadline was **45 days later**, i.e., **by 17 February 2025**.","**Properly answers the question?** Yes – it states the 45‑day period from 3 January 2025 and gives the exact deadline of 17 February 2025.  
+
+**Does it hallucinate?** No – all information matches the source; no false or invented legal facts are introduced.  
+
+**Does it answer directly from the source?** Yes – it quotes the notification’s wording and correctly derives the deadline from that source."
+2,synthetic,"Which specific provision of the Digital Personal Data Protection Act, 2023 mandates the publication of the draft rules as referenced in the notification?","The requirement arises under sub‑section (1) of section 40 of the Digital Personal Data Protection Act, 2023.","**Provision:** **Section 5(3) of the Digital Personal Data Protection Act, 2023**  
+
+**What the provision says**  
+> “*The Central Government shall, before making any rule under sub‑section (1), publish a draft of the rule for public comment.*”
+
+This clause expressly obliges the government to release a **draft** of any rule it intends to formalise under the Act. Consequently, the notification that refers to the “draft rules” is grounded in the mandate found in **Section 5(3)**.","The notification states that the draft rules had to be published “as required under **sub‑section (1) of section 40** of the Digital Personal Data Protection Act, 2023 (22 of 2023).”","**Properly answers the question?** Yes - It correctly identifies sub‑section (1) of section 40 as the provision mandating publication.  
+**Does it hallucinate?** No - No false or invented legal facts are present.  
+**Does it answer directly from the source?** Yes - It directly cites the exact provision from the Act."
+3,synthetic,On which date does Rule 4 become effective relative to the publication of the Gazette?,One year after the date of publication of the Gazette.,"Under the Indian DPDP Rules, Rule 4 comes into force **on the very day it is published in the Official Gazette**—i.e., it is effective from the date of its Gazette publication.",Rule 4 becomes effective **one year after the date of publication of the Gazette**.,"**Properly answers the question?** Yes – The answer states that Rule 4 becomes effective one year after the Gazette’s publication, which matches the ground‑truth fact.  
+**Does it hallucinate?** No – No additional or false legal information is introduced.  
+**Does it answer directly from the source?** Yes – The response repeats the source statement verbatim."
+4,synthetic,Which specific rules are stipulated to come into force eighteen months after the Gazette’s publication?,"Rules 3, 5 to 16, 22 and 23.","**Answer**
+
+Under the *Data Protection and Data Privacy (DPDP) Rules, 2023* (the “DPDP Rules”), the Gazette‑notification contains a two‑stage commencement provision:
+
+*All provisions of the Rules come into force on the date of their publication in the Gazette **except** those listed in Rule 2(2). Those listed provisions will become operative **not earlier than 18 months after the Gazette’s publication**, on a date that the Central Government will later notify.*
+
+The specific rules that are subject to this 18‑month deferment are:
+
+| Rule (DPDP Rules) | Subject‑matter covered by the rule |
+|-------------------|-------------------------------------|
+| **Rule 5** | **Appointment of a Data Protection Officer (DPO)** – the requirement that every data fiduciary appoint a DPO and the duties/qualifications of the DPO. |
+| **Rule 6** | **Processing of Sensitive Personal Data (SPD)** – the need for explicit consent, higher standards of security, and the special obligations that apply to SPD. |
+| **Rule 7** | **Data Protection Impact Assessment (DPIA)** – the obligation to conduct a DPIA for high‑risk processing activities. |
+| **Rule 8** | **Cross‑border transfer of personal data** – the conditions and safeguards for transferring personal data outside India. |
+| **Rule 9** | **Data‑localisation requirements** – the mandate that certain categories of personal data be stored in India. |
+| **Rule 10** | **Establishment and powers of the Data Protection Board of India (DPB)** – the creation of the regulatory authority, its composition, jurisdiction and enforcement powers. |
+| **Rule 11** | **Grievance‑redressal mechanism & filing of complaints** – the procedure for data principals to lodge complaints, the role of the DPB in adjudicating them, and the timelines for resolution. |
+
+These seven rules are expressly deferred for a period of **eighteen (18) months** from the date the DPDP Rules are published in the Gazette. After that period, the Central Government will issue a separate notification specifying the exact date on which each of the above rules will come into force.","The rules that are specified to become effective **eighteen months after the Gazette’s publication** are:
+
+- **Rule 3**  
+- **Rules 5 to 16** (i.e., Rules 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16)  
+- **Rule 22**  
+- **Rule 23**  
+
+These are the only rules expressly mentioned in the provided text as coming into force eighteen months after the date of publication of the Gazette.","**Properly answers the question?** Yes - the answer lists exactly Rules 3, 5‑16, 22, and 23 as stipulated to come into force eighteen months after the Gazette’s publication.  
+**Does it hallucinate?** No - no additional or false legal details are introduced.  
+**Does it answer directly from the source?** Yes - the response matches the ground‑truth source fact."
+5,synthetic,"Under the notice requirements, what are the two separate obligations imposed by clauses 12(a) and 12(b) on a Data Fiduciary, and what specific element must the notice contain regarding the personal data itself?","Clause 12(a) obliges the notice to be presented and be understandable independently of any other information, while clause 12(b) requires the notice to be in clear and plain language, providing a fair account that enables specific and informed consent. The notice must include an itemised description of the personal data.","**Clause 12(a) – Pre‑collection notice**  
+The Rules require the data fiduciary to give the data principal a notice **before** any personal data is collected. The notice must disclose, in clear and concise language, the *purpose* for which the data is being collected (and the legal basis for processing).
+
+**Clause 12(b) – Notice of any change in purpose or further processing**  
+If, after the original collection, the data fiduciary intends to use the data for a different purpose, to process it further, or to share it with another party, the fiduciary must issue a **separate notice** informing the data principal of that change and of the new purpose(s) or recipients.
+
+**Element that must be included about the personal data itself**  
+Both notices must contain a description of the **categories (or type) of personal data** that are being collected/processed. In other words, the notice must specify exactly what personal data the fiduciary intends to handle.","**Clause 12(a)** – The notice must be **stand‑alone and comprehensible**. It has to be presented in a way that the Data Principal can understand it **without having to refer to any other information the Data Fiduciary may have provided, is providing, or might provide in the future**.
+
+**Clause 12(b)** – The notice must **clearly and plainly explain the essential details** that enable the Data Principal to give a specific, informed consent. This explanation must, at a minimum, contain:  
+
+1. **An itemised description of the personal data** that will be processed, and  
+2. **The specified purpose(s) of the processing**, together with a specific description of the goods or services to be provided or the uses to be enabled by that processing.
+
+**Specific element regarding the personal data itself:** the notice must include **an itemised description of the personal data** that is to be processed.","**Properly answers the question?** Yes – it correctly identifies the separate obligations of clauses 12(a) and 12(b) and notes that the notice must contain an itemised description of the personal data.  
+**Does it hallucinate?** No – the answer adds extra but accurate legal context; it does not introduce false facts.  
+**Does it answer directly from the source?** Yes – the response reflects the source facts (stand‑alone understandable notice, clear plain language for informed consent, and the itemised description requirement)."
+6,synthetic,"How does the definition of 'verifiable consent' in clause 9(d) interact with the cross‑reference to rules 10 or 11, and what effect does clause (2) have on interpreting any term used in the Rules that is not defined therein?","'Verifiable consent' is defined as a consent as specified in rule 10 or rule 11. Clause (2) states that any word or expression used in the Rules but not defined there shall have the same meaning as assigned to it in the Act, meaning the definition of verifiable consent must be read in conjunction with the Act’s definitions of consent.","**Short answer**
+
+- **Clause 9(d) – “verifiable consent”** is defined in the DPDP Rules as a form of consent that can be proved by the data fiduciary (or data processor) through a reliable record, such as a digital signature, a time‑stamped audit log, a receipt of an OTP, or any other mechanism that demonstrates that the data principal has actively agreed to the specific purpose(s) of processing.
+
+- **Cross‑reference to Rules 10 and 11** – The definition in 9(d) is not isolated; it is linked to the procedural requirements laid down in Rules 10 (Consent Management) and 11 (Withdrawal of Consent). The cross‑reference means that:
+  1. **Rule 10** sets out the **process** for obtaining, recording, and managing verifiable consent (e.g., the fiduciary must obtain consent in a clear, granular, and time‑stamped manner, maintain a consent‑log, and provide the principal with a means to view or revoke it).  
+  2. **Rule 11** deals with the **effect** of withdrawal of that consent, requiring the fiduciary to cease processing the data for the withdrawn purpose and to delete or anonymise the data where required.  
+
+  Consequently, “verifiable consent” must be **operationalised** in a way that satisfies the technical and administrative safeguards prescribed in Rules 10 and 11. In practice, a consent‑record that meets the definition in 9(d) will be considered valid only if it is captured, stored, and can be retrieved in the manner mandated by Rule 10, and it must be capable of being honoured (or revoked) under Rule 11.
+
+- **Clause (2) – General rule of interpretation** – Clause (2) of the DPDP Rules (the “interpretation clause”) states that *any term used in the Rules that is not expressly defined shall be interpreted in accordance with the definition of that term in the Data Protection Bill, 2023 (or the parent legislation), and, failing that, in accordance with the ordinary meaning of the term in the context of data protection law*.  
+
+  The effect of this clause is two‑fold:
+  1. **Filling definitional gaps** – If a term appears in a rule but is not defined within the Rules themselves, the interpreter must look first to the definition in the principal Act (the Digital Personal Data Protection Act, 2023).  
+  2. **Ensuring consistency** – This hierarchy prevents contradictory or fragmented meanings across the Rules and the Act, ensuring that the Rules are read as a detailed implementation of the Act rather than as an independent source of law.
+
+  Therefore, when dealing with “verifiable consent” or any other term that is not defined in the Rules, the interpreter must:
+  * Check the definition in the parent Act;  
+  * If the Act also leaves the term undefined, apply the ordinary meaning in the context of data‑protection jurisprudence;  
+  * Use the purpose‑oriented, purposive approach that the DPDP framework adopts (i.e., give a meaning that furthers the protection of the data principal’s rights).
+
+---
+
+## Detailed analysis
+
+### 1. Clause 9(d) – “verifiable consent”
+
+| Element | What the clause requires | Typical evidentiary mechanisms |
+|---------|--------------------------|--------------------------------|
+| **Active, informed, and specific** | The principal must be presented with clear information about the purpose, nature, and duration of processing, and must take a positive step to agree. | Check‑boxes, “I Agree” buttons, signed consent forms. |
+| **Record‑keeping** | The fiduciary must maintain a **verifiable record** that can be produced to a regulator or a data principal on request. | Time‑stamped logs, digital signatures, OTP receipts, blockchain hashes. |
+| **Granularity** | Consent must be obtained separately for each distinct purpose (no “blanket” consent). | Separate consent entries for marketing, analytics, third‑party sharing, etc. |
+| **Revocability** | The principal must be able to withdraw consent as easily as it was given. | Self‑service portal, “unsubscribe” link, revocation API. |
+
+The clause therefore embeds both a **substantive** requirement (the consent must be “verifiable”) and a **procedural** requirement (the fiduciary must be able to **prove** it).
+
+### 2. Interaction with Rules 10 and 11
+
+#### Rule 10 – Consent Management
+
+- **10.1**: Requires fiduciaries to **obtain consent** in a manner that satisfies 9(d).  
+- **10.2**: Mandates the **maintenance of a consent‑log** that includes:  
+  * Identity of the data principal,  
+  * Purpose(s) of processing,  
+  * Date‑time stamp,  
+  * Method of obtaining consent (e.g., digital signature, OTP).  
+- **10.3**: Stipulates that the log must be **readily accessible** to the regulator and the data principal.  
+
+Thus, the “verifiable” element of 9(d) is **operationalised** by the technical and administrative safeguards in Rule 10. A consent record that cannot be retrieved or that lacks the required metadata would not meet the definition of “verifiable consent”.
+
+#### Rule 11 – Withdrawal of Consent
+
+- **11.1**: Gives the data principal the right to **withdraw** consent at any time, free of cost.  
+- **11.2**: Requires the fiduciary to **immediately cease** processing for the withdrawn purpose and to **delete or anonymise** the data unless another lawful basis applies.  
+- **11.3**: Obligates the fiduciary to **update the consent‑log** to reflect the withdrawal, preserving the original consent record for audit purposes.  
+
+The cross‑reference therefore creates a **feedback loop**: the consent obtained under Rule 10 must be **revocable** under Rule 11, and the revocation must be **recorded** in a way that still satisfies the “verifiable” standard of 9(d). In other words, the consent‑log must capture both the grant and the withdrawal, each with a verifiable timestamp and method.
+
+### 3. Effect of Clause (2) on interpreting undefined terms
+
+Clause (2) reads (paraphrased):
+
+> “Any term used in these Rules which is not defined herein shall be interpreted in accordance with the definition of that term in the Digital Personal Data Protection Act, 2023, and, if the Act does not define it, by reference to the ordinary meaning of the term in the context of data‑protection law.”
+
+**Implications**
+
+1. **Hierarchy of sources**  
+   - **First**: Look for a definition in the Rules.  
+   - **Second**: If absent, look in the parent Act (DPDP Act).  
+   - **Third**: If still undefined, apply the ordinary meaning, guided by judicial decisions, scholarly commentary, and international best‑practice.
+
+2. **Consistency across the framework**  
+   - Prevents a situation where, for example, “processor” is defined differently in the Rules than in the Act, which would create ambiguity for compliance.  
+   - Ensures that the Rules are read as **implementation measures** of the Act, not as an independent legislative text.
+
+3. **Interpretative approach**  
+   - The DPDP regime adopts a **purposive** interpretation: the meaning that best furthers the protection of the data principal’s rights and the objectives of the Act (e.g., privacy, accountability, transparency).  
+   - Courts or regulators will therefore give a meaning that aligns with the overall privacy‑by‑design ethos, even if the literal dictionary meaning is broader.
+
+**Practical example**  
+Suppose Rule 15 mentions “**sensitive personal data**” but does not define it. Clause (2) directs the interpreter to refer to the definition in the DPDP Act, which lists categories such as health data, biometric data, financial information, etc. If the Act’s definition were later amended, the Rules would automatically inherit the updated meaning without needing amendment.
+
+### 4. Putting it all together
+
+- **“Verifiable consent”** (9(d)) is **not just a definitional label**; it is a functional requirement that must be **demonstrated** through the mechanisms prescribed in **Rule 10** (how consent is captured, stored, and made auditable) and **Rule 11** (how that consent can be withdrawn and the withdrawal recorded).  
+- The **cross‑reference** ensures that any consent obtained is **legally robust**: the fiduciary must be able to produce a verifiable audit trail that satisfies both the **grant** and **withdrawal** phases.  
+- **Clause (2)** acts as a **interpretative safety net**: if any term (including “verifiable consent” itself, or ancillary terms like “data fiduciary”, “processing”, “purpose limitation”) is not defined in the Rules, the definition in the parent Act prevails, and absent that, the ordinary meaning in data‑protection law applies. This guarantees a **coherent, unified reading** of the entire DPDP framework.
+
+---
+
+### Bottom line for compliance officers
+
+1. **Implement a consent‑management system** that:
+   - Captures consent in a **granular, time‑stamped, digitally signed** manner (Rule 10).  
+   - Stores the consent‑log in a **tamper‑evident** repository that can be produced on demand (Rule 10 & 9(d)).  
+   - Provides a **self‑service revocation portal** and updates the log instantly upon withdrawal (Rule 11).  
+
+2. **Document the interpretation** of any term not defined in the Rules by referencing the DPDP Act first, and keep a record of the interpretative rationale (useful for regulator audits).  
+
+3. **Audit regularly** to ensure that the consent records you retain truly satisfy the “verifiable” standard—i.e., they can be independently verified without reliance on the fiduciary’s subjective claim.  
+
+By aligning the operational practices with the **definition** in 9(d) and the **procedural mandates** of Rules 10 and 11, and by applying Clause (2) for any undefined terminology, an organization can demonstrate full compliance with the Indian DPDP Rules.","**Interaction between clause 9(d) and rules 10 & 11**
+
+- Clause 9(d) tells us that *“verifiable consent”* is **not** given a stand‑alone definition in the Rules.  
+- Instead, it says that the meaning of “verifiable consent” is the one **set out in rule 10 or rule 11**.  
+- Consequently, to know what “verifiable consent” entails, a Data Fiduciary must look at the **specific requirements** laid down in those two rules:  
+
+  * **Rule 10** – the consent that must be obtained from a **parent** (or other adult) before a child’s personal data is processed, together with the due‑diligence steps for confirming the adult’s identity and age.  
+  * **Rule 11** – the consent that must be obtained from a **lawful guardian** of a person with disability, together with the due‑diligence steps for confirming that the guardian has been duly appointed by a court, designated authority or local committee.  
+
+- Thus, “verifiable consent” is a **context‑specific concept**: the content of the consent and the verification procedures depend on whether the data subject is a child (rule 10) or a person with disability under guardianship (rule 11). The definition in 9(d) simply points the reader to those detailed provisions.
+
+**Effect of clause (2) on interpreting undefined terms**
+
+- Clause (2) states: *“The words and expressions used in these rules and not defined, but defined in the Act, shall have the same meanings respectively assigned to them in the Act.”*  
+- This creates a **hierarchical interpretative rule**:
+
+  1. **If a term is defined in the Rules** – use that definition.  
+  2. **If the term is not defined in the Rules but is defined in the Personal Data Protection Act (the “Act”)** – the definition in the Act applies automatically.  
+  3. **If the term is nowhere defined** – the Rules provide no guidance, and the term would have to be interpreted using general principles of statutory construction or other applicable law.
+
+- In practice, this means that terms such as **“adult,” “authorised entity,” “designated authority,”** etc., which appear in the excerpts of rules 10 and 11, are given the meanings that the Act assigns to them (as illustrated in the excerpts). The Rules do not need to repeat those definitions; they inherit them from the Act.
+
+**Summary**
+
+- *Verifiable consent* is defined by reference to the detailed, situation‑specific requirements in **rule 10** (parental consent for a child) and **rule 11** (guardian consent for a person with disability).  
+- Clause (2) ensures that any term used in the Rules but not expressly defined there is automatically given the meaning that the **Personal Data Protection Act** provides, guaranteeing consistency across the legislation.","**Properly answers the question?** Yes – The response correctly explains that clause 9(d) makes “verifiable consent” dependent on the definitions in rules 10 or 11, and that clause (2) mandates that any undefined term in the Rules takes its meaning from the Act.  
+
+**Does it hallucinate?** No – All statements are consistent with the ground‑truth facts; the added details about the content of rules 10 and 11 are accurate and not invented.  
+
+**Does it answer directly from the source?** Yes – The answer restates the source information (the cross‑reference and the effect of clause (2)) and expands on it without introducing unsupported material."
+7,synthetic,"According to the DPDP Rules, what specific information must a Data Fiduciary provide to a Data Principal to enable withdrawal of consent, and how must the ease of withdrawal compare to the original consent process?","The Data Fiduciary must provide the particular communication link for accessing its website or app (or both) and describe any other means, if any, that the Data Principal can use to withdraw consent. The ease of withdrawing consent must be comparable to the ease with which the consent was originally given.","**What the DPDP Rules require a Data Fiduciary to tell a Data Principal about withdrawing consent**
+
+Under the *Digital Personal Data Protection (DPDP) Rules, 2023* (the “Rules”), a Data Fiduciary must give the Data Principal **clear, specific, and easily understandable information** that enables the Principal to withdraw the consent that was previously given.  The Rules (particularly Rule 5 (2) and Rule 6 (1) of the DPDP Rules) spell out the exact content of that information:
+
+| Information the Fiduciary must provide | Why it is required (Rule reference) |
+|------------------------------------------|--------------------------------------|
+| **The exact steps to withdraw consent** (e.g., click a “Withdraw consent” button, send an email, fill a short online form, or call a helpline) | Rule 5 (2)(a) – “the procedure for withdrawal of consent”. |
+| **The channels through which withdrawal can be effected** (website portal, mobile‑app, email address, telephone number, SMS short‑code, or physical address) | Rule 5 (2)(b) – “the medium/means of withdrawal”. |
+| **Contact details of the designated officer or Data‑Protection Officer** (name, email, phone, or any other contact point) | Rule 5 (2)(c) – “the contact details of the officer”. |
+| **The time‑frame within which the withdrawal will be processed and the data will be stopped from further processing** | Rule 5 (2)(d) – “the period within which the withdrawal will be effected”. |
+| **Any consequences of withdrawal** (e.g., loss of access to a service, impact on contractual performance) | Rule 5 (2)(e) – “the effect of withdrawal on the provision of services”. |
+| **Assurance that withdrawal is free of charge** | Rule 5 (2)(f) – “that no fee shall be levied for withdrawal”. |
+| **A reminder that the withdrawal can be done at any time, without the need for prior justification** | Rule 5 (2)(g) – “that withdrawal may be exercised at any time”. |
+
+**How easy the withdrawal must be compared with the original consent process**
+
+The Rules impose a *parity‑of‑ease* requirement:
+
+- **Rule 5 (2)(h)** states that *the mechanism for withdrawing consent shall be “as easy as, or easier than, the mechanism by which the consent was originally obtained.”*  
+- This means the Fiduciary cannot introduce additional hurdles (e.g., requiring a notarised letter, a lengthy form, or a fee) that were not present when the Principal first gave consent.  
+- The withdrawal process must be **simple, free, and readily accessible** through the same or a more convenient channel (e.g., if consent was given via a mobile app, the withdrawal should be possible through the same app with a single tap).  
+
+In practice, the fiduciary must design the withdrawal interface so that a Data Principal can:
+
+1. Locate the withdrawal option without navigating through multiple pages or menus.  
+2. Complete the withdrawal in a comparable number of clicks/steps as the original consent (or fewer).  
+3. Do so without paying any fee or providing additional documentation.  
+
+**Summary**
+
+To comply with the DPDP Rules, a Data Fiduciary must give the Data Principal a concise, step‑by‑step description of how to withdraw consent, the exact channels and contact details to use, the expected processing time, any service‑impact consequences, and a guarantee that the withdrawal is free.  Moreover, the withdrawal mechanism must be **no more burdensome** than the original consent‑giving process—ideally it should be equally simple or even simpler.","**Information the Data Fiduciary must give the Data Principal**
+
+- The **specific communication link** (URL or app‑link) that the Data Principal can use to reach the Data Fiduciary’s website or application.  
+- A **description of any other means** (e.g., a phone number, email address, in‑app button, QR code, etc.) that the Data Principal may use to:
+  1. **Withdraw** the consent that was previously given;  
+  2. **Exercise** any other rights under the DPDP Act; and  
+  3. **Lodge a complaint** with the Board.
+
+**Ease of withdrawal**
+
+- The Rules require that the **ease of withdrawing consent must be comparable to the ease with which the original consent was obtained**. In other words, the Data Principal should be able to withdraw consent through a process that is no more cumbersome, time‑consuming, or technically demanding than the process used to give consent in the first place.","**Properly answers the question?** Yes - The response lists the required communication link and other means for withdrawal and states that the ease of withdrawal must be comparable to the original consent process.  
+**Does it hallucinate?** No - All provided details are consistent with the ground‑truth requirement; no false legal facts are introduced.  
+**Does it answer directly from the source?** Yes - The answer captures the source fact accurately, even though it adds some extra but correct contextual details."
+8,synthetic,"When an applicant seeks registration as a Consent Manager, what investigative action is the Board authorized to undertake under the Rules, and what specific schedule does it reference to assess eligibility?","Upon receiving an application, the Board may conduct any inquiry it deems fit to verify that the applicant fulfills the conditions set out in Part A of the First Schedule.","**Investigative power of the Board**
+
+When a person or entity applies to be registered as a **Consent Manager** under the Indian Data Protection and Data Privacy (DPDP) Rules, the Data Protection Board is expressly empowered to **order an inquiry/investigation** into the applicant’s suitability.  
+
+- **Section 13(2) of the DPDP Rules** authorises the Board to “*inquire, investigate or verify*” any matter relating to the applicant’s compliance with the eligibility requirements for registration as a Consent Manager.  
+
+**Schedule that governs the assessment**
+
+The Board’s inquiry must be conducted in accordance with **Schedule III of the DPDP Rules**, which sets out the **eligibility criteria and documentary requirements** that an applicant must satisfy to be granted a Consent‑Manager registration (e.g., financial solvency, technical capability, security safeguards, and the absence of disqualifying convictions).  
+
+**In short:**  
+- The Board may **inquire/investigate** the applicant’s compliance, and  
+- It does so by applying the standards laid down in **Schedule III of the DPDP Rules**.","When an applicant applies for registration as a Consent Manager, the Rules empower the Board to **“make such inquiry as it may deem fit”** to verify that the applicant satisfies the required conditions. The Board’s inquiry is directed at confirming compliance with the **conditions set out in Part A of the First Schedule** of the DPDP Rules.","**Properly answers the question?** Yes - The answer states that the Board may make any inquiry it deems fit and that it must verify compliance with the conditions in Part A of the First Schedule, matching the ground‑truth fact.  
+**Does it hallucinate?** No - No false or invented legal details are introduced; the response accurately reflects the source.  
+**Does it answer directly from the source?** Yes - The wording closely mirrors the source statement, citing the same authority and schedule."
+9,synthetic,What procedural steps must the Board follow before it can direct a Consent Manager to take measures to ensure adherence to the conditions and obligations under this rule?,"The Board must first form the opinion that the Consent Manager is not adhering to the conditions and obligations, then give the Consent Manager an opportunity of being heard, and thereafter inform the Consent Manager of such non‑adherence and direct it to take measures to ensure adherence.","**Procedural steps the Data Protection Board must observe before it can direct a Consent Manager to take remedial measures**
+
+| Step | What the Board must do | Legal basis in the DPDP Rules (2023) |
+|------|------------------------|--------------------------------------|
+| 1. **Identify the ground for intervention** | The Board may act on a complaint, a report from a Data Fiduciary, a media report, or suo‑motu if it believes the Consent Manager has violated any condition or obligation imposed on it by the Rules. | *Rule 13(1) – Power to inquire* |
+| 2. **Issue a formal notice (show‑cause notice)** | The Board sends a written notice to the Consent Manager specifying: <br>• the exact provision(s) of the Act/Rules that are alleged to be breached; <br>• the facts on which the Board relies; <br>• the relief sought (i.e., direction to take particular measures). | *Rule 13(2) – Notice to the person concerned* |
+| 3. **Provide a reasonable time to respond** | The notice must state a clear time‑frame (normally not less than 30 days, unless urgency is demonstrated) within which the Consent Manager must file its written response and any supporting documents. | *Rule 13(3) – Time‑frame for filing response* |
+| 4. **Allow a hearing / opportunity to be heard** | The Board conducts a hearing (physical or virtual) where the Consent Manager can: <br>• present evidence; <br>• cross‑examine any material produced against it; <br>• make oral submissions. The hearing must be conducted in accordance with the principles of natural justice. | *Rule 13(4) – Hearing and opportunity to be heard* |
+| 5. **Conduct an inquiry / fact‑finding** | The Board may: <br>• call for documents, records, or audit reports from the Consent Manager; <br>• seek expert opinions; <br>• inspect the technical and organisational measures the Consent Manager has put in place. | *Rule 13(5) – Power to summon documents and evidence* |
+| 6. **Record findings and reasons** | After the hearing, the Board must record its findings, stating: <br>• whether a breach has occurred; <br>• the nature and seriousness of the breach; <br>• the specific conditions/obligations that were not met. | *Rule 13(6) – Recording of findings* |
+| 7. **Issue a reasoned order** | If the Board concludes that a breach exists, it may issue an order directing the Consent Manager to: <br>• adopt specific technical, organisational, or procedural safeguards; <br>• rectify the breach within a stipulated period; <br>• submit periodic compliance reports. The order must: <br>• be in writing; <br>• state the legal basis; <br>• specify the time‑frame for compliance; <br>• mention consequences of non‑compliance (e.g., penalty, suspension of licence). | *Rule 13(7) – Order with reasons* |
+| 8. **Communicate the order to relevant parties** | The order is served on the Consent Manager, the concerned Data Fiduciary (if any), and, where appropriate, published on the Board’s website for transparency. | *Rule 13(8) – Service of order* |
+| 9. **Monitor compliance** | The Board may require periodic status reports, conduct follow‑up audits, or appoint an independent auditor to verify that the directed measures have been implemented. | *Rule 14 – Monitoring and enforcement* |
+| 10. **Provide a remedy for aggrieved parties** | Any party aggrieved by the Board’s direction may file an appeal to the Appellate Tribunal within the period prescribed under the Act (generally 30 days). | *Section 46 of the DPDP Act – Appeal* |
+
+### Key Take‑aways
+1. **Natural justice is mandatory** – the Consent Manager must be given a clear notice, a reasonable time to respond, and a fair hearing before any direction is imposed.  
+2. **The Board’s power is limited to what is expressly provided in the Rules** – it cannot issue a direction ex‑parte or without first completing the procedural safeguards listed above.  
+3. **The direction must be proportionate and specific** – it should address the exact breach and prescribe only those measures necessary to bring the Consent Manager into compliance.  
+
+By following the above procedural roadmap, the Board ensures that any directive to a Consent Manager is legally sound, transparent, and enforceable under the Indian DPDP Rules.","The Rules require the Board to follow a **two‑step procedural safeguard** before it can order a Consent Manager to take remedial measures:
+
+1. **Form an opinion of non‑adherence** – the Board must first be “of the opinion that a Consent Manager is not adhering to the conditions and obligations under this rule.”  
+2. **Give the Consent Manager a chance to be heard** – the Board must “after giving an opportunity of being heard” notify the Consent Manager of the alleged non‑adherence and then issue the direction to take corrective measures.
+
+Only after these steps (opinion of breach + hearing opportunity) may the Board direct the Consent Manager to ensure compliance. (Source: Document 1, paragraph (4)).","**Properly answers the question?** Yes - It correctly identifies that the Board must first form an opinion of non‑adherence and then give the Consent Manager an opportunity to be heard before directing remedial measures.  
+
+**Does it hallucinate?** No - No false or invented legal facts are introduced; the answer stays within the scope of the source.  
+
+**Does it answer directly from the source?** Yes - The response paraphrases the source accurately, reflecting the procedural steps outlined in the document."
+10,synthetic,"Under which condition can the Board suspend or cancel a Consent Manager's registration, and what documentation requirement accompanies that order?","The Board may suspend or cancel the registration when it is satisfied that such action is necessary in the interests of Data Principals; it must first give the Consent Manager an opportunity of being heard, and the order must record the reasons in writing.","**Condition for suspension or cancellation**
+
+Under the **Digital Personal Data Protection (DPDP) Rules, 2024**, the Data Protection Board may **suspend or cancel the registration of a Consent Manager** when the Consent Manager:
+
+* **fails to comply with any provision of the DPDP Act, the DPDP Rules, or the conditions of its registration** (e.g., providing false or misleading information, not maintaining the mandatory records, or engaging in practices that jeopardise the protection of personal data), **or**  
+* **is found to be involved in any activity that constitutes a violation of the data‑protection framework** (such as unauthorized processing, breach of the consent‑management obligations, or any other misconduct that undermines the fiduciary‑data subject relationship).
+
+In short, **non‑compliance or misconduct that threatens the integrity of the data‑protection regime** triggers the Board’s power to suspend or cancel the Consent Manager’s registration.
+
+---
+
+**Documentation requirement that accompanies the order**
+
+When the Board exercises this power, the Rules require that the Board:
+
+1. **issues a written order** stating the specific grounds for suspension or cancellation; and  
+2. **attaches a copy of that order to the Register of Consent Managers** (the public register maintained by the Board).  
+
+Additionally, the Board must **communicate the order to the affected Consent Manager** and **publish the order (or a summary thereof) on the Board’s website** so that the public is informed of the change in status.
+
+Thus, the suspension/cancellation order must be documented in writing, reasoned, and formally recorded in the Board’s register (and made publicly accessible).","**Condition for suspension or cancellation**
+
+The Board may suspend or cancel a Consent Manager’s registration **when it is satisfied that such action is necessary in the interests of the Data Principals**. Before doing so, the Board must **give the Consent Manager an opportunity of being heard**.
+
+**Documentation requirement**
+
+The Board’s order must **record the reasons for the suspension or cancellation in writing**.","**Properly answers the question?** Yes - The answer correctly states the condition (action necessary in the interests of Data Principals) and the documentation requirement (order must record reasons in writing).  
+**Does it hallucinate?** No - No false or invented legal facts are present.  
+**Does it answer directly from the source?** Yes - The response mirrors the ground‑truth source wording."
+11,synthetic,"Which entity has the power to demand information from the Consent Manager under this rule, and what is the scope of that power?","The Board may, for the purposes of this rule, require the Consent Manager to furnish such information as the Board may call for.","**Entity with the power to demand information:**  
+The **Data Protection Authority (DPA)** – the statutory regulator created under the *Digital Personal Data Protection Act, 2023* (DPDP Act) and its Rules – is the only body expressly empowered to require information from a Consent Manager.
+
+**Scope of that power (as per the DPDP Rules):**  
+
+| Aspect | What the DPA can demand from the Consent Manager |
+|--------|---------------------------------------------------|
+| **Nature of information** | Any **information, documents, records, data, or evidence** that the Consent Manager holds in relation to the processing of personal data, including: <br>• Details of consents obtained (purpose, scope, duration, etc.) <br>• Logs of consent‑granting, withdrawal, and revocation <br>• Technical and organisational measures adopted to manage consent <br>• Reports of any data‑breach incidents and remedial actions <br>• Any other material required to assess compliance with the DPDP Act and Rules |
+| **Purpose** | To **verify compliance**, **investigate alleged violations**, **enforce the provisions** of the DPDP Act, or **exercise any other function** conferred on the DPA under the Act (e.g., issuing directions, imposing penalties). |
+| **Form of demand** | A **written notice** specifying the information required, the reason for the request, and a reasonable time‑frame for compliance (usually as prescribed in the Rules or as the DPA deems fit). |
+| **Compliance obligation** | The Consent Manager must **provide the requested information without undue delay** and within the stipulated period. Failure to comply can attract **penalties** (including fines) under the DPDP Act. |
+| **Confidentiality & protection** | Information supplied is subject to the DPA’s confidentiality obligations and may be used only for the purpose of the investigation or enforcement action. |
+| **Limits** | The DPA’s power is **not unlimited** – it must be exercised **reasonably**, **in good faith**, and **in accordance with the procedural safeguards** laid down in the DPDP Rules (e.g., right to be heard, proportionality). |
+
+**In short:**  
+The **Data Protection Authority** can, by written notice, demand any consent‑related information or documentation that the Consent Manager holds, for the purpose of ensuring compliance, conducting investigations, or enforcing the DPDP Act. The demand must be complied with within a reasonable time, and non‑compliance may lead to regulatory penalties.","**Entity with the power to demand information:** The **Board** (the Board referred to in the DPDP Rules).
+
+**Scope of that power:** For the purposes of the rule, the Board may **require the Consent Manager to furnish any information that the Board may call for**. In other words, the Board can ask for any data, records, or details it deems necessary to fulfil the objectives of the rule—such as information needed for audit, monitoring, compliance verification, or any other purpose contemplated by the rule.  
+
+*Reference:* Document 2 (Page 2) – “(6) The Board may, for the purposes of this rule, require the Consent Manager to furnish such information as the Board may call for.”","**Properly answers the question?** Yes – It correctly identifies the Board as the entity and states that the Board can require the Consent Manager to furnish any information the Board calls for under the rule.  
+
+**Does it hallucinate?** No – The answer does not introduce any false legal facts; the additional examples are merely elaborations.  
+
+**Does it answer directly from the source?** Yes – The core response mirrors the source wording (“the Board may … require the Consent Manager to furnish such information as the Board may call for”)."
+12,synthetic,"When processing the personal data of a Data Principal for a state‑issued subsidy, benefit, service, certificate, licence or permit, which specific set of standards must be applied and where are they referenced?","Processing must be done following the standards specified in the Second Schedule, as stated in clause (1) of the rule.","**Answer**
+
+When a data fiduciary processes the personal data of a Data Principal in order to provide a **state‑issued subsidy, benefit, service, certificate, licence or permit**, the processing must be carried out **in accordance with the “Standard for processing personal data for the purpose of providing a state‑issued subsidy, benefit, service, certificate, licence or permit.”**  
+
+**Where the standard is referenced**
+
+| Provision (DPDP Rules 2023) | Reference to the Standard |
+|------------------------------|----------------------------|
+| **Section 5(2)** (Processing of personal data) | Requires that processing for a state‑issued subsidy/benefit/service/certificate/licence/permit be done “in accordance with the Standard for processing personal data for the purpose of providing a state‑issued subsidy, benefit, service, certificate, licence or permit, as may be notified by the Central Government.” |
+| **Annexure I** to the DPDP Rules | Contains the full text of the “Standard for processing personal data for the purpose of providing a state‑issued subsidy, benefit, service, certificate, licence or permit.” |
+
+Thus, the **specific set of standards** is the **Standard for processing personal data for the purpose of providing a state‑issued subsidy, benefit, service, certificate, licence or permit**, and it is **referenced in Section 5(2) of the DPDP Rules and is set out in Annexure I of those Rules**.","The processing must be carried out **in accordance with the standards set out in the *Second Schedule* of the DPDP Rules**.  
+
+- This requirement is spelled out in the rule that governs processing of personal data for the provision or issuance of a subsidy, benefit, service, certificate, licence or permit by the State and its instrumentalities.  
+- The rule states: *“Processing the personal data of a Data Principal under this rule shall be done following the standards specified in **Second Schedule**.”* (Document 1, Page 2).  
+
+Therefore, whenever a State‑issued subsidy, benefit, service, certificate, licence or permit is being processed, the **Second Schedule standards**—which cover accountability, retention, security safeguards, intimation to the Data Principal, etc.—must be applied.","**Properly answers the question?** Yes – The answer correctly identifies that the standards in the Second Schedule must be applied and notes where they are referenced in the rule.  
+**Does it hallucinate?** No – The additional description of what the Second Schedule covers is accurate and does not introduce false legal facts.  
+**Does it answer directly from the source?** Yes – It cites the specific rule (clause (1)) and even references the document and page where the requirement appears."
+13,synthetic,"A State Government issues a subsidy pursuant to a Central Government policy instruction and funds it from the Consolidated Fund of India. Under which of the defined terms does this action fall – ‘under law’, ‘under policy’, or ‘using public funds’?",It falls under both ‘under policy’ (because it is issued under a policy instruction from the Central Government) and ‘using public funds’ (because the funding is drawn from the Consolidated Fund of India).,"**Short answer:**  
+The State‑Government subsidy **falls under both** the “**under policy**” and the “**using public funds**” categories defined in the Indian **Data Protection Framework (DPDP) Rules, 2023**. It is **not** “under law” because the requirement originates from a policy instruction, not from a statutory provision.
+
+---
+
+## 1. Relevant DPDP Rules definitions  
+
+| Defined term (Rule 2) | Meaning (excerpt) |
+|-----------------------|-------------------|
+| **“Processing of personal data *under law*”** | …processing that is **mandated by any law** (central, state or local) for the purpose of compliance with that law. |
+| **“Processing of personal data *under policy*”** | …processing that is **required by a policy, programme, scheme, or instruction** issued by the Government (central or state) **in the public interest**. |
+| **“Processing of personal data *using public funds*”** | …any processing **financed, wholly or partly, from public money** (e.g., Consolidated Fund of India, State Consolidated Funds, or any other government‑allocated budget). |
+
+*(Rule 2(1)‑(3) of the DPDP Rules, 2023)*
+
+---
+
+## 2. How the subsidy fits the definitions  
+
+| Element of the subsidy | DPDP definition it satisfies | Explanation |
+|------------------------|------------------------------|-------------|
+| **Issued pursuant to a Central‑Government policy instruction** | **“under policy”** | The instruction is a **policy/programme** (not a statute). The State Government is acting **because the policy directs it to do so**. |
+| **Financed from the Consolidated Fund of India** | **“using public funds”** | The Consolidated Fund of India is the **primary public‑revenue pool** of the Union. Any expenditure drawn from it is **public‑funded**. |
+| **No specific statute mandating the subsidy** | **Not “under law”** | There is no enactment that *legally* obliges the State to grant the subsidy; the basis is a policy instruction, so the “under law” definition does not apply. |
+
+Thus, the subsidy **simultaneously satisfies two of the three DPDP categories**.
+
+---
+
+## 3. Practical implication under the DPDP Rules  
+
+Because the activity is both **“under policy”** and **“using public funds,”** the State Government must treat the processing of any personal data involved (e.g., applicant names, bank details, eligibility criteria) as **“processing under policy”** **and** **“processing using public funds.”**  
+
+Consequences include:
+
+1. **Applicability of the DPDP Rules** – The rules apply to the processing, and the State must comply with all obligations that arise under the relevant categories (e.g., maintaining a Data Protection Impact Assessment, appointing a Data Protection Officer, ensuring transparency, etc.).
+
+2. **Higher‑level accountability** – When an activity falls under **both** categories, the DPDP Rules require the data fiduciary to **adhere to the stricter of the two compliance regimes**. In practice, this means:
+   * Observing the **policy‑specific safeguards** (e.g., purpose limitation, data minimisation as stipulated in the policy).
+   * Observing the **public‑funds safeguards** (e.g., auditability, public‑interest reporting, and the requirement to publish a **Data Protection Impact Assessment** in the public domain).
+
+3. **Exemptions** – Certain exemptions (e.g., for national security) that are available only under “under law” do **not** automatically apply here, because the activity is not law‑mandated.
+
+---
+
+## 4. Bottom line  
+
+- **“Under law”** – **No** (no statutory mandate).  
+- **“Under policy”** – **Yes** (the subsidy follows a Central‑Government policy instruction).  
+- **“Using public funds”** – **Yes** (financed from the Consolidated Fund of India).  
+
+Therefore, the action is **characterised as processing “under policy” and “using public funds”** under the DPDP Rules.","The action falls under **both** of the defined terms:
+
+| Defined term | How the action matches the definition (Document 1, Page 2) |
+|--------------|-----------------------------------------------------------|
+| **“under policy”** (clause (b)) | The subsidy is issued **pursuant to a policy or instruction issued by the Central Government** – exactly what clause (b) describes. |
+| **“using public funds”** (clause (c) → (i)) | The subsidy is funded from the **Consolidated Fund of India**, which is the public‑fund source listed in clause (c)(i). |
+
+It does **not** fall under “under law” because the issuance is not based on a statutory provision but on a policy instruction. Hence, the correct classification is **“under policy” and “using public funds.”**","**Properly answers the question?** Yes – it correctly identifies that the action falls under both “under policy” and “using public funds” and explains why it does not fall under “under law,” matching the ground‑truth classification.  
+
+**Does it hallucinate?** No – all statements are consistent with the provided ground truth; no false legal facts are introduced.  
+
+**Does it answer directly from the source?** Yes – the response cites the relevant clause definitions (Document 1, Page 2) and aligns its explanation with those source definitions."
+14,synthetic,"Can a State instrumentalities issue a licence under a draft bill that has not yet been enacted, claiming it is covered by the ‘under law’ definition?",No. The ‘under law’ definition applies only to provisions or issuances made under any law ‘for the time being in force’; a draft bill not yet enacted is not a law in force.,"**Short answer:**  
+No. A State‑instrumentality cannot validly issue a licence under a draft bill that has not yet been enacted by relying on the “under law” definition in the Indian Data Protection Framework (DPDP) Rules. Until a bill becomes law (i.e., is passed by the legislature and notified), it does not satisfy the statutory requirement of being “under law,” and the DPDP Rules do not empower a State‑instrumentality to grant licences in the first place.
+
+---
+
+## Detailed analysis
+
+### 1. What “under law” means in the DPDP Rules
+
+| Provision | Text (DPDP Rules, 2023) |
+|-----------|------------------------|
+| **Definition of “under law”** (Rule 2.1) | “*Under law* means in accordance with any law for the time being in force in India.” |
+| **Definition of “licence”** (Rule 2.2) | “*Licence* means a permission granted by the Central Government (or any authority it may delegate) to a data fiduciary to carry out a specified activity under the DPDP Act.” |
+
+**Interpretation**
+
+* “Law for the time being in force” is a well‑settled expression in Indian statutory construction. It refers only to statutes, rules, notifications, or orders that have **already been enacted** and are **operational**. A draft bill, even if it has been introduced in Parliament or a State Legislature, does not meet this threshold because it has not yet received the requisite assent and has not been notified.
+
+### 2. Who may issue a licence under the DPDP Act?
+
+| Provision | Text |
+|-----------|------|
+| **Section 13(1) of the DPDP Act, 2023** | “The Central Government may, by notification, grant a licence to a data fiduciary for the processing of personal data, subject to the conditions prescribed in the Rules.” |
+| **Rule 5.1 (Grant of licence)** | “The Central Government shall be the authority to grant licences … The State Government may, where the Central Government so authorises, delegate certain functions, but the power to grant a licence remains with the Central Government.” |
+
+**Implication**
+
+* The *sole* authority to grant a licence is the **Central Government** (or a body it delegates). A State‑instrumentality does not have statutory power to issue a licence, even if the Central Government were to delegate certain ancillary functions. Delegation of the *granting* power itself is not contemplated.
+
+### 3. Effect of a draft bill
+
+* A draft bill is **not** a “law for the time being in force.”  
+* Until the bill is passed by the legislature, receives the President’s/Governor’s assent, and is published in the Gazette, it has **no legal effect**.  
+* Any action taken “under” a draft bill would be **ultra vires** (beyond legal authority) and could be challenged in a court of law.
+
+### 4. Potential consequences of issuing a licence under a draft bill
+
+| Consequence | Explanation |
+|-------------|-------------|
+| **Ultra‑vires challenge** | Affected data fiduciaries or data subjects could file a writ petition (e.g., under Article 226 of the Constitution) contending that the licence is invalid because the underlying law does not exist. |
+| **Nullity of the licence** | Courts would likely declare the licence void ab initio, meaning any processing authorised on its basis would be unlawful under the DPDP Act. |
+| **Regulatory sanctions** | The Data Protection Authority of India (DPA) could impose penalties on the State‑instrumentality for acting outside its statutory mandate. |
+| **Loss of confidence** | Issuing licences without legal basis could erode trust in the data‑protection ecosystem and invite scrutiny from the Central Government. |
+
+### 5. Practical guidance for a State‑instrumentality
+
+1. **Wait for enactment** – Do not issue any licence until the bill is formally enacted and the DPDP Rules are amended (if required) to reflect the new statutory framework.  
+2. **Seek Central Government clarification** – If the State believes a specific function needs to be exercised urgently, it may approach the Central Government for an interim direction or a temporary delegation, but such delegation must be **explicitly** conferred under the DPDP Act.  
+3. **Use existing provisions** – Until the new law is in force, the State can rely only on the **existing DPDP Act, 2023** and its Rules, or on any other applicable law (e.g., the Information Technology Act, 2000).  
+
+---
+
+## Bottom line
+
+- **“Under law”** = a law that is *already* in force.  
+- A **draft bill** is *not* a law; therefore, it cannot satisfy the “under law” requirement.  
+- The **licence‑granting power** resides with the **Central Government**, not a State‑instrumentality.  
+
+Consequently, a State‑instrumentality **cannot** lawfully issue a licence under a draft bill by invoking the “under law” definition in the DPDP Rules. Any such licence would be ultra vires and vulnerable to being set aside by the courts.","No. The definition of “under law” in the DPDP Rules is limited to the provision or issuance of a subsidy, benefit, service, certificate, licence or permit **“in exercise of any power of or the performance of any function by the State or any of its instrumentalities **under any law for the time being in force**.” A draft bill that has not yet been enacted is not “a law for the time being in force”; therefore a State instrumentality cannot rely on the “under law” definition to justify issuing a licence under such a draft bill.","**Properly answers the question?** Yes – It correctly states that a State instrumentality cannot issue a licence under an unenacted draft bill because the “under law” definition applies only to laws “for the time being in force.”  
+
+**Does it hallucinate?** No – No false or invented legal facts are presented; the answer faithfully reflects the ground‑truth rule.  
+
+**Does it answer directly from the source?** Yes – The response paraphrases the source’s reasoning and conveys the same legal principle without adding extraneous information."
+15,synthetic,"According to clause (1) of Section 6, does the duty to implement reasonable security safeguards apply solely to data the Data Fiduciary processes itself, or does it also cover processing carried out by a Data Processor on the Fiduciary’s behalf?",It also covers processing undertaken by a Data Processor on the Data Fiduciary’s behalf.,"**Short answer:**  
+The duty to implement reasonable security safeguards under clause (1) of **Section 6** of the Indian *Data Protection and Data Privacy (DPDP) Rules, 2023* is **not limited only to the personal data that the Data Fiduciary processes itself**. It also **covers personal data that is processed by a Data Processor on the Fiduciary’s behalf**. The Fiduciary must ensure that any Processor it engages implements comparable safeguards, and the Fiduciary remains ultimately responsible for compliance.
+
+---
+
+### Detailed explanation
+
+| Provision | What it says | How it is interpreted |
+|-----------|--------------|----------------------|
+| **Section 6(1) – “Reasonable security safeguards”** | “A Data Fiduciary shall, as far as practicable, implement reasonable security safeguards for the protection of personal data in its possession, custody or control, including during any processing of such personal data.” | The phrase *“in its possession, custody or control”* is read broadly. “Control” includes situations where the Fiduciary directs a third‑party Processor to act on its behalf. |
+| **Section 6(2) – “Obligations of a Data Processor”** (sub‑clause) | “A Data Processor shall, as far as practicable, implement reasonable security safeguards for the protection of personal data while processing on behalf of the Data Fiduciary.” | This expressly mirrors the Fiduciary’s duty for the Processor, indicating that the safeguard obligation is intended to flow through the processing chain. |
+| **Section 6(3) – “Contractual requirement”** | “The Data Fiduciary shall ensure that the contract with the Data Processor contains provisions requiring the Processor to implement reasonable security safeguards and to comply with the DPDP Rules.” | The Fiduciary’s contractual duty reinforces that the Fiduciary must secure the same level of protection even when the actual technical measures are carried out by the Processor. |
+| **Section 7 – “Accountability”** (general principle) | “The Data Fiduciary shall be accountable for any breach of the DPDP Rules, including those arising from the acts or omissions of a Data Processor engaged by it.” | This accountability clause confirms that the Fiduciary cannot escape responsibility for the Processor’s handling of data. |
+
+#### Why the duty extends to Processor‑handled data
+
+1. **Statutory language of “possession, custody or control”** – Control is a legal concept that includes the power to determine the purposes and means of processing, even if the actual technical processing is outsourced.  
+2. **Parallel obligation on the Processor** – Section 6(2) creates a mirror duty for the Processor, which can only be triggered if the Fiduciary’s duty is meant to apply to the entire processing ecosystem.  
+3. **Contractual and accountability mechanisms** – Sections 6(3) and 7 make it clear that the Fiduciary must contractually bind the Processor to the same safeguards and remains liable for any breach, indicating that the original safeguard duty is intended to be satisfied either directly by the Fiduciary or indirectly through a compliant Processor.  
+
+#### Practical implications
+
+- **Risk assessment** – The Fiduciary must assess security risks for *all* personal data it controls, irrespective of whether the processing is internal or outsourced.  
+- **Due‑diligence on Processors** – Before engaging a Processor, the Fiduciary should verify the Processor’s security framework (e.g., ISO 27001, SOC 2) and ensure it meets the “reasonable” standard.  
+- **Contractual clauses** – The contract must explicitly require the Processor to implement safeguards, notify the Fiduciary of any security incidents, and cooperate in breach response.  
+- **Audit & monitoring** – The Fiduciary should retain the right to audit the Processor’s security measures and require periodic compliance reports.  
+
+---
+
+### Bottom line
+
+- **Clause (1) of Section 6 imposes a duty on the Data Fiduciary to implement reasonable security safeguards for all personal data it has *control* over.**  
+- **That duty automatically extends to personal data processed by a Data Processor on the Fiduciary’s behalf, because the Processor’s activities fall within the Fiduciary’s “control” of the data.**  
+- **The Fiduciary remains ultimately accountable and must ensure, via contract and oversight, that the Processor complies with the same safeguard standards.**","The duty to implement reasonable security safeguards is **not limited** to the data that the Data Fiduciary processes itself.  
+
+Clause (1) of Section 6 expressly states that a Data Fiduciary must protect personal data “**including in respect of any processing undertaken by it or on its behalf by a Data Processor**” by taking reasonable security safeguards.  
+
+Therefore, the obligation covers both:
+
+1. **Direct processing** carried out by the Data Fiduciary, and  
+2. **Indirect processing** performed by a Data Processor on the Fiduciary’s behalf.  
+
+In short, the requirement to adopt reasonable security safeguards applies to all personal data under the Fiduciary’s possession or control, irrespective of whether the processing is done by the Fiduciary itself or by a Data Processor acting for the Fiduciary.","**Properly answers the question?** Yes – it correctly states that the duty to implement reasonable security safeguards applies both to the Data Fiduciary’s own processing and to processing carried out by a Data Processor on the Fiduciary’s behalf.  
+
+**Does it hallucinate?** No – the answer does not introduce any false or invented legal facts; it accurately reflects the source provision.  
+
+**Does it answer directly from the source?** Yes – the response conveys the source fact that the obligation also covers processing undertaken by a Data Processor on the Fiduciary’s behalf."
+16,synthetic,"In the excerpt from the Ministry of Electronics and Information Technology Notification, clause (ii) refers to “the fund or funds of such authority.” Which specific authorities’ funds are brought within the ambit of the DPDP Rules by this provision?","The funds of any local or other authority within the territory of India, or any authority under the control of the Government of India or any State.","**Answer**
+
+Clause (ii) of the Ministry of Electronics and Information Technology (MeitY) Notification – “the **fund or funds of such authority**” – pulls **the financial resources of every government‑type body that is captured by the definition of “authority” in the DPDP Rules** into the scope of the Rules.  
+
+The DPDP Rules (2023) define *“authority”* (Rule 2(vi)) as follows:
+
+| Category of authority | What it includes |
+|-----------------------|------------------|
+| **Central Government** | The Union Government and any department, ministry, agency, or body thereof. |
+| **State Government** | Any State Government and any department, ministry, agency, or body thereof. |
+| **Union Territory (UT) Government** | The administration of a Union Territory and its departments/agencies. |
+| **Local Authority** | Municipal corporations, municipal councils, panchayats, and any other local self‑government body. |
+| **Statutory Authority** | Bodies created by an Act of Parliament or a State Legislature (e.g., the Telecom Regulatory Authority of India, the Securities and Exchange Board of India, etc.). |
+| **Public Sector Undertaking (PSU) / Government‑controlled entity** | Companies or enterprises in which the Government (Union, State or UT) holds a majority shareholding or exercises control. |
+| **Any other authority established under law** | Any other institution, board, commission, or agency that is constituted by law and performs a public function. |
+
+Because clause (ii) expressly mentions “the fund or funds of such authority,” **the DPDP Rules apply not only to the personal data that the authority processes but also to any personal data that is processed in connection with the authority’s financial resources** (e.g., payroll, pension, grant‑disbursement, procurement, subsidy schemes, etc.).
+
+### Therefore, the specific authorities whose **funds** are brought within the ambit of the DPDP Rules are:
+
+1. **The Central Government** and all its ministries, departments, and agencies.  
+2. **State Governments** and all their ministries, departments, and agencies.  
+3. **Union Territory Administrations** and their departments/agencies.  
+4. **Local Authorities** (municipalities, municipal corporations, panchayats, etc.).  
+5. **Statutory Authorities** created by central or state legislation.  
+6. **Public Sector Undertakings (PSUs) and other government‑controlled enterprises**.  
+7. **Any other body established by law** that performs a public function (e.g., commissions, boards, regulatory bodies).
+
+In short, **any public‑sector entity whose financial resources are “the fund or funds of such authority”**—as defined above—is subject to the DPDP Rules for the processing of personal data related to those funds.","The provision pulls **the funds of any authority that falls within the following categories** into the scope of the DPDP Rules:
+
+1. **Local authorities** – e.g., municipal corporations, municipal councils, district‑level bodies, panchayats and any other local self‑government institutions operating within the territory of India.  
+
+2. **“Other” authorities within the territory of India** – this covers statutory or regulatory bodies, public sector undertakings, agencies, boards, commissions, universities, hospitals, research institutes, and any other entity that is created by law or executive order and operates in India, even if it is not a traditional “local” body.  
+
+3. **Authorities under the control of the Government of India** – any central‑government department, ministry, agency, public sector enterprise, or instrumentality that is funded or administered by the Union Government.  
+
+4. **Authorities under the control of a State Government** – any state‑level department, agency, corporation, board, or other instrumentality that is funded or administered by a State Government.
+
+In short, **the rule brings the funds of every local, state‑level, or centrally‑controlled public authority—including statutory bodies, public sector undertakings, and other government‑owned entities—within the ambit of the DPDP Rules**.","**Properly answers the question?** Yes - The answer correctly identifies the funds of any local or other authority in India, as well as authorities under the control of the Government of India or a State, matching the ground‑truth provision.  
+
+**Does it hallucinate?** No - It only expands with illustrative examples and does not introduce any false legal facts.  
+
+**Does it answer directly from the source?** Yes - It paraphrases the source clause accurately, covering the same categories of authorities."
+17,synthetic,"According to the notification, for how long must logs and personal data be retained to enable detection of unauthorised access, and under what condition can this period be altered?","One year, unless compliance with any law for the time being in force requires otherwise.","According to the DPDP Rules notification, a data fiduciary must retain **logs and the personal data they contain for at least 180 days** so that any unauthorised access can be detected.  
+
+That retention period may be varied **only if the data fiduciary obtains prior approval from the Data Protection Authority (or the Data Protection Board) or where a specific law expressly requires a different retention period**.","The notification requires that **logs and the associated personal data be retained for one year** in order to detect, investigate and remediate any unauthorised access.  
+
+This one‑year period **may be changed only if another law in force (or a government notification) mandates a different retention period** – i.e., when compliance with any other applicable legislation requires a longer (or otherwise different) retention timeframe.","**Properly answers the question?** Yes - The answer states the retention period is one year and notes it can be altered if another law requires a different period, matching the ground truth.  
+**Does it hallucinate?** No - No false legal facts are introduced; the extra wording about “government notification” is a plausible elaboration, not a fabrication.  
+**Does it answer directly from the source?** Yes - The response conveys the source fact accurately (one year, unless compliance with any law in force requires otherwise)."
+18,synthetic,What specific technical methods are enumerated as appropriate data security measures for securing personal data under clause (a)?,"Encryption, obfuscation, masking, or the use of virtual tokens mapped to that personal data.","**Clause (a) of the Indian DPDP Rules** (the “Appropriate Technical Measures” clause) expressly lists the following technical methods that a data fiduciary may employ as **appropriate data‑security measures** for protecting personal data:
+
+| # | Technical method (as worded in the Rules) | What it entails (brief description) |
+|---|-------------------------------------------|--------------------------------------|
+| 1 | **Encryption** | Transforming data into a coded form that can be read only with the appropriate decryption key. |
+| 2 | **Pseudonymisation** | Replacing identifying fields within a data set with artificial identifiers (pseudonyms) so that the data cannot be attributed to a specific individual without additional information kept separately. |
+| 3 | **Anonymisation** | Irreversibly removing personal identifiers so that the data subject cannot be identified, either directly or indirectly. |
+| 4 | **Tokenisation** | Substituting a sensitive data element with a non‑sensitive placeholder (token) that has no exploitable meaning outside the token‑mapping system. |
+| 5 | **Hashing** | Applying a one‑way cryptographic hash function to data, producing a fixed‑size string that cannot be feasibly reversed to retrieve the original data. |
+| 6 | **Access‑control mechanisms** (including role‑based and attribute‑based controls) | Restricting who can view, modify, or process personal data based on defined privileges. |
+| 7 | **Multi‑factor authentication (MFA)** | Requiring two or more independent credentials (something you know, have, or are) before granting access to personal data. |
+| 8 | **Secure coding practices & code reviews** | Developing applications following industry‑accepted security standards (e.g., OWASP) and regularly reviewing code for vulnerabilities. |
+| 9 | **Network security measures** (e.g., firewalls, intrusion‑detection/prevention systems, network segmentation) | Protecting the data‑processing environment from unauthorized network access and attacks. |
+|10 | **Regular security testing & vulnerability management** (penetration testing, vulnerability scans, patch management) | Continuously identifying and remediating security weaknesses. |
+|11 | **Logging, monitoring and audit trails** | Maintaining tamper‑evident records of data access, processing activities, and security events for detection and forensic analysis. |
+|12 | **Secure data disposal & destruction** (e.g., shredding, cryptographic erasure) | Ensuring that personal data is irretrievably destroyed when no longer needed. |
+|13 | **Data‑loss‑prevention (DLP) mechanisms** | Detecting and preventing unauthorized transmission of personal data outside the organization. |
+|14 | **Backup and disaster‑recovery controls** (encrypted backups, off‑site storage) | Ensuring data integrity and availability in case of system failure or breach. |
+
+### How the clause is framed
+The Rules state that **“appropriate technical measures”** shall include **“any or all of the following methods, as may be appropriate to the nature of the personal data, the risks involved, and the state of the art”** and then enumerate the items above. The list is not exhaustive; a data fiduciary may adopt additional measures that are **“reasonable and proportionate”** to the specific context, but the methods above are the ones expressly enumerated in clause (a).
+
+### Practical take‑away for fiduciaries
+- **Identify the risk profile** of the personal data you process (sensitivity, volume, processing purpose, etc.).
+- **Select from the enumerated methods** (or a combination thereof) that best mitigate those risks.
+- **Document the rationale** for each chosen measure, showing that it aligns with the “state of the art” and is proportionate to the identified risks—this documentation is required for compliance audits under the DPDP Act.  
+
+---  
+
+*References:*  
+- **The Digital Personal Data Protection Act, 2023** (DPDP Act) – Section 5 & Section 7.  
+- **The Digital Personal Data Protection Rules, 2023** – Clause (a) of “Appropriate Technical Measures” (Rule 5.1).","The clause lists the following technical methods as examples of appropriate data‑security measures for securing personal data:
+
+- **Encryption**  
+- **Obfuscation**  
+- **Masking**  
+- **Use of virtual tokens mapped to that personal data**","**Properly answers the question?** Yes - The answer lists exactly the four technical methods specified in the clause.  
+**Does it hallucinate?** No - No false or invented legal facts are introduced; the answer matches the source.  
+**Does it answer directly from the source?** Yes - It directly restates the enumerated methods from the clause."
+19,synthetic,"Under the DPDP Rules, what specific contractual provision must a Data Fiduciary incorporate when entering into an agreement with a Data Processor to satisfy the requirement for reasonable security safeguards?",The contract must contain an appropriate provision that obligates the Data Processor to take reasonable security safeguards.,"**Required contractual provision (DPDP Rules § 5.2 (2))**
+
+When a Data Fiduciary (DF) enters into an agreement with a Data Processor (DP), the contract **must contain a clause that obligates the DP to implement and maintain “reasonable security safeguards”** – i.e., appropriate technical and organisational measures – for the protection of personal data.  
+
+The clause should expressly state that the DP shall:
+
+1. **Process personal data only on documented instructions of the DF** (including any instructions required under the DPDP Act).  
+2. **Implement and maintain appropriate technical and organisational security measures** (as may be prescribed under the DPDP Rules) to protect personal data against:  
+   - Accidental or unlawful destruction, loss, alteration, or disclosure;  
+   - Unauthorized access, use, or processing.  
+3. **Co‑operate with the DF for audits, inspections, and compliance verification** of those security measures.  
+4. **Notify the DF without undue delay (and, where required, within the time‑frame prescribed by the Rules) of any actual or suspected data breach** and provide all necessary assistance for remediation.  
+5. **Ensure that any sub‑processors are bound by the same security‑safeguard obligations** and that the DF is informed of any such sub‑processing.  
+
+In short, the **“reasonable security safeguards” clause**—requiring the DP to adopt and continuously maintain appropriate technical and organisational measures, to act only on the DF’s instructions, and to cooperate on breach‑notification and audit duties—is the specific contractual provision mandated by the Indian DPDP Rules to satisfy the security‑safeguard requirement.","Under the DPDP Rules, a Data Fiduciary must insert **an “appropriate provision” in its contract with a Data Processor that obligates the processor to take reasonable security safeguards**. This clause must require the processor to implement the technical and organisational measures needed to prevent personal‑data breaches and to ensure effective observance of those safeguards【Document 1, Page 3 – “(f) appropriate provision in the contract … for taking reasonable security safeguards; and (g) appropriate technical and organisational measures to ensure effective observance of security safeguards.”】","**Properly answers the question?** Yes - It correctly identifies that the contract must contain an “appropriate provision” obligating the Data Processor to take reasonable security safeguards.  
+**Does it hallucinate?** No - All statements are accurate and supported; no false legal facts are introduced.  
+**Does it answer directly from the source?** Yes - It cites the relevant provision from the DPDP Rules document."
+20,synthetic,"If a Data Fiduciary becomes aware of a personal data breach, what exact modes of communication and descriptive qualities are mandated for notifying each affected Data Principal?","The Data Fiduciary must, without delay, intimate each affected Data Principal in a concise, clear and plain manner, using the Data Principal's user account or any mode of communication registered by the Data Principal with the Data Fiduciary.","**Indian DPDP Rules – Notification of a Personal‑Data Breach (Rule 5 of the DPDP Rules, 2023)**  
+
+When a Data Fiduciary (DF) becomes aware of a personal‑data breach, the Rules prescribe **both the *mode* of communication* and the *content/qualities* of the notice** that must be sent to each affected Data Principal (DP). The requirements are summarised below:
+
+| Requirement | What the Rules Mandate |
+|-------------|------------------------|
+| **Timing** | The DF must notify the affected DP **as soon as practicable after becoming aware of the breach**, and **no later than 72 hours** from the time of such awareness, unless it is not reasonably possible to do so (in which case the DF must explain the delay). |
+| **Mode(s) of communication** | 1. **Electronic means** – e‑mail, SMS, instant‑messaging, or any other electronic channel that the DP has previously provided or that is commonly used for communication with that DP.<br>2. **Physical/Postal means** – where electronic contact is not feasible or the DP has expressly requested it, the DF must use a **registered post or courier** to the DP’s last known address.<br>3. **Other prescribed modes** – the DF may use any other mode (e.g., a mobile‑app notification, a voice call, or a notice on a portal) **if it is the DP’s preferred channel** or if the DF has obtained the DP’s consent for that channel. The DF must keep a record of the channel used. |
+| **Language** | The notice must be in a **language that the DP can understand** – i.e., the language(s) the DP has indicated as preferred, or the official language(s) of the State/Union Territory where the DP resides. |
+| **Descriptive qualities (content) – “clear, concise and intelligible”** | The notice must contain, in plain‑language terms, the following particulars: <br>1. **Nature of the breach** – a brief description of what happened (e.g., unauthorised access, loss, theft, accidental disclosure). <br>2. **Categories of personal data affected** – specify the types of data (e.g., name, address, PAN, health records) without revealing the actual data values. <br>3. **Date and time of the breach** (or the period during which it occurred). <br>4. **Likely consequences** – potential risks to the DP (identity theft, financial loss, reputational harm, etc.). <br>5. **Remedial measures taken or proposed** – steps the DF has already implemented (e.g., containment, password reset, forensic investigation) and any actions the DP should take (e.g., change passwords, monitor accounts). <br>6. **Contact details of the Data Protection Officer (DPO) or other designated point of contact** – name, address, telephone number, e‑mail, and any dedicated breach‑response helpline. <br>7. **Reference to the DF’s breach‑response policy** (if any) and the right of the DP to seek further information or assistance. |
+| **Additional safeguards** | • The notice must be **securely transmitted** (e.g., encrypted e‑mail, password‑protected PDF) to preserve confidentiality.<br>• The DF must **maintain a log** of the notification (date, time, channel, content, and acknowledgment receipt, if any). |
+| **Acknowledgment (where feasible)** | If the DP’s preferred channel allows for acknowledgment (e‑mail read‑receipt, SMS delivery receipt, signed postal receipt), the DF should obtain and retain that acknowledgment as proof of compliance. |
+
+### Practical Checklist for a Data Fiduciary
+
+1. **Identify the affected DP(s)** and verify their preferred communication channel(s) and language.  
+2. **Draft the breach notice** using plain language, covering all eight content points above.  
+3. **Select the appropriate mode** (electronic, postal, or other) based on the DP’s preference and the feasibility of rapid delivery.  
+4. **Transmit the notice** securely and record the transmission details (timestamp, channel, delivery confirmation).  
+5. **Log the entire process** (awareness of breach → internal assessment → decision to notify → notice sent → acknowledgment).  
+6. **Report to the Data Protection Authority (DPA)** within the same 72‑hour window (separate requirement) with a copy of the DP‑level notice and a summary of remedial actions.
+
+---
+
+**Key Take‑away:**  
+Under the Indian DPDP Rules, a Data Fiduciary must **inform each affected Data Principal promptly (≤ 72 hours) via the DP’s preferred electronic or postal channel, in a language they understand, and using a notice that is clear, concise, and intelligible**. The notice must detail the breach’s nature, the data categories involved, likely impacts, remedial steps taken, and provide a direct contact point for further assistance.","When a Data Fiduciary learns of a personal‑data breach, the Rules require it to inform each affected Data Principal **(i)** through the **principal’s own user account or any other mode of communication that the principal has previously registered with the Data Fiduciary**, and **(ii)** the notice must be delivered **“in a concise, clear and plain manner and without delay.”**","**Properly answers the question?** Yes - The answer correctly states the required communication modes (user account or any registered mode) and the descriptive qualities (concise, clear, plain manner, without delay).  
+**Does it hallucinate?** No - No false or invented legal details are present; the response aligns with the ground truth.  
+**Does it answer directly from the source?** Yes - The answer restates the source fact verbatim, covering both the communication method and the manner of notice."
+21,synthetic,"According to the notification requirements, what five specific elements must the Data Fiduciary include when describing a personal data breach to the Board?","(a) a description of the breach, including its nature, extent and the timing of its occurrence; (b) the consequences relevant to the Data Principal that are likely to arise from the breach; (c) the measures implemented and being implemented by the Data Fiduciary, if any, to mitigate risk; (d) the safety measures that the Data Principal may take to protect her interests; (e) business contact information of a person who can respond on behalf of the Data Fiduciary to any queries of the Data Principal.","Under the Indian **Data Protection and Data Privacy (DPDP) Rules**, when a Data Fiduciary notifies the Board of a personal‑data breach, the description must contain **five specific elements**:
+
+1. **Nature of the breach** – a clear description of what happened (e.g., unauthorized access, loss, theft, accidental disclosure, etc.).  
+2. **Categories and number of data principals (data subjects) affected** – the types of individuals whose data was impacted and an approximate head‑count.  
+3. **Categories and number of personal data records affected** – the kinds of personal data involved (e.g., name, address, health data) and an estimate of how many records were compromised.  
+4. **Likely consequences of the breach** – the potential impact on the affected data principals (e.g., identity theft, financial loss, reputational harm).  
+5. **Remedial measures taken or proposed** – the steps the Data Fiduciary has already implemented or plans to implement to mitigate the breach and prevent recurrence.  
+
+These five elements together satisfy the DPDP Rules’ notification requirement for describing a personal‑data breach to the Board.","The notification rules require the Data Fiduciary, when informing the Board about a personal‑data breach, to include the following five elements:
+
+1. **A description of the breach** – covering its nature, the extent of the breach and the timing (when it occurred).  
+2. **The likely consequences** – the impacts or repercussions that are expected to arise for the Data Principal.  
+3. **The measures taken or being taken by the Data Fiduciary** – any steps already implemented (or planned) to mitigate the risk.  
+4. **Safety measures for the Data Principal** – advice on what the Data Principal can do to protect her interests.  
+5. **Business contact information** – details of a person who can respond on behalf of the Data Fiduciary to any queries from the Data Principal.","**Properly answers the question?** Yes - It enumerates the five required elements exactly as stipulated in the ground truth.  
+**Does it hallucinate?** No - No false or invented legal details are present.  
+**Does it answer directly from the source?** Yes - The answer restates the source’s five elements without deviation."
+22,synthetic,"When is the Data Fiduciary obligated to intimate the Board about a breach, and does the excerpt prescribe any further mandatory steps beyond this notification?","The Data Fiduciary must intimate the Board ""on becoming aware of any personal data breach"". The provided excerpt does not prescribe any additional mandatory actions beyond this notification.","**When the Data Fiduciary must inform the Board**
+
+Under the **Data Protection and Data Privacy (DPDP) Rules, 2022**, the Data Fiduciary is required to intimate the Board (i.e., the Data Protection Authority) **as soon as practicable and, in any event, not later than 72 hours after becoming aware of a data‑breach**. The wording in the Rules is:
+
+> “The Data Fiduciary shall, without undue delay and, where feasible, within seventy‑two (72) hours of becoming aware of a breach, intimate the Board of the breach…”.
+
+Thus, the moment the fiduciary **has knowledge** (or a reasonable belief) that a breach has occurred, the clock starts, and the notification must be made within the 72‑hour window.
+
+---
+
+**Does the excerpt impose any further mandatory steps?**
+
+The specific excerpt you are referring to (the notification clause) **does not prescribe any additional mandatory actions beyond the requirement to inform the Board**. It limits itself to:
+
+1. **Timely intimation** of the Board about the breach, and  
+2. **Providing the information** that the Board may reasonably require (e.g., nature of the breach, categories of data affected, remedial measures taken, etc.).
+
+Other provisions of the DPDP Rules address complementary obligations, such as:
+
+- **Rule 13(2)** – the Data Fiduciary must also **inform the affected data principals** without undue delay.  
+- **Rule 13(3)** – the fiduciary must **maintain a breach log** and make it available to the Board on request.  
+- **Rule 13(4)** – the fiduciary must **take appropriate remedial measures** to mitigate the breach and prevent recurrence.
+
+However, **those additional duties are set out in separate sub‑clauses of the same rule**, not in the notification clause itself. Therefore, if you are looking strictly at the excerpt that deals with “intimation of the Board,” the only mandatory step it imposes is the **prompt notification within 72 hours**; any further actions (notifying data principals, logging the breach, remedial measures, etc.) are mandated elsewhere in the Rules.","**When the Board must be informed**
+
+- The rules state that **“on becoming aware of any personal data breach, the Data Fiduciary shall intimate to the Board”** (Document 1, p. 3).  
+- Thus, the moment the Data Fiduciary knows (or should reasonably know) that a breach has occurred, it is obligated to notify the Board.
+
+**Further mandatory steps in the excerpt**
+
+- The excerpt that deals with Board notification contains only that single duty – the requirement to **intimate the Board**.  
+- No additional actions (such as filing a detailed report, conducting a post‑breach audit, or taking remedial measures) are prescribed in that specific clause.  
+
+Therefore, under the provided text, the Data Fiduciary’s sole mandatory step regarding the Board is the prompt notification once it becomes aware of a breach; the excerpt does not impose any further mandatory requirements beyond this notification.","**Properly answers the question?** Yes - It correctly states that the fiduciary must notify the Board when it becomes aware of a breach and that no further mandatory steps are prescribed.  
+**Does it hallucinate?** No - All statements align with the provided ground truth and do not introduce false legal facts.  
+**Does it answer directly from the source?** Yes - The response mirrors the source excerpt’s content regarding the notification requirement and the absence of additional duties."
+23,synthetic,"If a data fiduciary needs more than the standard seventy‑two‑hour window to provide the updated breach information, what specific procedural requirement must be satisfied to obtain the extended period, and who grants the extension?","The fiduciary must submit a written request on its behalf to the Board, and the Board may then allow a longer period beyond the seventy‑two hours.","**Procedural requirement:**  
+The data fiduciary must **submit a written request/ application to the Data Protection Authority (DPA)** before the 72‑hour deadline expires. The request must set out:
+
+1. The specific reasons why the 72‑hour window cannot be met,  
+2. The steps already taken to assess the breach, and  
+3. The additional time required (not to exceed the maximum period allowed under the Rules).
+
+**Authority that grants the extension:**  
+The **Data Protection Authority (DPA)** reviews the application and, if satisfied with the justification, may grant the extension (up to the period prescribed in the DPDP Rules, typically a further 7 days).",The data fiduciary must **submit a written request to the Board** asking for a longer period to furnish the updated breach information. The **Board** is the authority that may grant the extension.,"**Properly answers the question?** Yes - It correctly identifies the need for a written request to the Board and that the Board may grant the extension.  
+**Does it hallucinate?** No - No false or invented legal details are present.  
+**Does it answer directly from the source?** Yes - The response mirrors the ground‑truth source fact."
+24,synthetic,"Within the mandatory breach report, which clause obligates the fiduciary to disclose details about the individual responsible for the breach, and what type of information is required under that clause?","Clause (iv) requires disclosure of ""any findings regarding the person who caused the breach,"" meaning the fiduciary must include any identified information about the individual(s) responsible for causing the breach.","**Clause:** **Clause (g) – “Identity of the person(s) responsible for the breach”** (found in Schedule III of the Indian DPDP Rules, which sets out the format of the mandatory breach‑report).
+
+**Information required under this clause**
+
+| Item | What must be disclosed |
+|------|------------------------|
+| **Name** | Full legal name of the individual (or legal entity) who caused or is deemed responsible for the breach. |
+| **Designation / Role** | The employee’s designation, job title, or the role of the third‑party service provider within the fiduciary’s organisation (e.g., “Senior Systems Engineer”, “Data‑Processing Vendor”). |
+| **Contact details** | Physical address (office location), official email address, and telephone number (or other reliable means of contact). |
+| **Organisational identifier (if applicable)** | Employee/contractor ID, department, or any internal reference that uniquely identifies the person within the fiduciary’s structure. |
+| **Nature of responsibility** (optional but recommended) | A brief description of how the individual’s actions (or omission) led to the breach (e.g., “unauthorised access due to weak password”, “mis‑configuration of cloud storage”). |
+
+In short, Clause (g) obliges the fiduciary to disclose the **identity and contact information** of the person(s) responsible for the breach, enabling the Data Protection Board and affected data principals to understand who was accountable and to take any necessary follow‑up actions.","**Clause:** Clause (iv) of the mandatory breach‑reporting requirements (Document 2, Page 3).
+
+**Information required:** The fiduciary must provide “any findings regarding the person who caused the breach.” This obliges the fiduciary to disclose details about the individual responsible for the breach – such as the identity, role or any other relevant facts uncovered about that person.","**Properly answers the question?** Yes – it correctly identifies clause (iv) and states that the fiduciary must disclose “any findings regarding the person who caused the breach.”  
+**Does it hallucinate?** No – the answer adds only generic, plausible elaboration (e.g., identity, role) and does not introduce false legal facts.  
+**Does it answer directly from the source?** Yes – it uses the exact wording of the clause (“any findings regarding the person who caused the breach”) from the source."
+25,synthetic,Under what condition may a Data Fiduciary retain personal data beyond the time period specified in the Third Schedule?,If retention is necessary for compliance with any law in force,"**Condition for retaining personal data beyond the period in the Third Schedule**
+
+Under the **Digital Personal Data Protection (DPDP) Rules, 2023**, a Data Fiduciary may keep personal data for a longer period than the retention period specified in the Third Schedule **only if one (or more) of the following conditions is satisfied**:
+
+| No. | Condition (as per the DPDP Rules) | What it means in practice |
+|-----|-----------------------------------|----------------------------|
+| 1. | **Retention required by law** | The fiduciary is obligated under any other applicable law (e.g., tax, company, securities, or criminal‑procedure statutes) to retain the data for a longer period. |
+| 2. | **Establishing, exercising or defending a legal claim** | The data is needed to support, pursue, or defend a civil, criminal, or administrative claim or proceeding. |
+| 3. | **Archiving in the public interest, scientific or historical research, or statistical purposes** | The data is retained for legitimate research, archival, or statistical activities that serve the public interest, provided that appropriate technical and organisational safeguards are in place. |
+| 4. | **Explicit consent of the data subject for a longer period** | The data subject has given a clear, informed, and specific consent for the fiduciary to retain the data beyond the schedule‑prescribed period. |
+
+**Key safeguards**  
+When any of the above conditions apply, the Data Fiduciary must still:
+
+1. **Document** the justification for extended retention.  
+2. **Inform** the data subject (where feasible) about the longer retention and its purpose.  
+3. **Implement** appropriate security measures to protect the data for the extended period.  
+4. **Delete or anonymise** the data as soon as the purpose for which it was retained no longer exists.
+
+In summary, a Data Fiduciary may retain personal data beyond the Third Schedule’s prescribed period **only** when it is legally required, needed for a legal claim, required for public‑interest research/archiving/statistics, or when the data subject has expressly consented—subject to the fiduciary’s duty to maintain adequate safeguards and to delete the data once the purpose is fulfilled.","A Data Fiduciary may keep the personal data **longer than the period set out in the Third Schedule only when its retention is required to comply with any law that is in force**.  (See Document 1, Rule 8(1): “shall erase … unless its retention is necessary for compliance with any law for the time being in force…”.)","**Properly answers the question?** Yes - The answer correctly states that retention beyond the Third Schedule is allowed only when necessary for compliance with any law in force.  
+**Does it hallucinate?** No - No false or invented legal facts are present; the answer aligns with the ground truth and provides a proper citation.  
+**Does it answer directly from the source?** Yes - It references Document 1, Rule 8(1), which contains the exact language supporting the answer."
+26,synthetic,"What must a Data Fiduciary do at least forty‑eight hours before the erasure deadline, and what action by the Data Principal would prevent the erasure?",The Data Fiduciary must inform the Data Principal that the data will be erased upon completion of the period; the erasure is prevented if the Data Principal logs into her user account or otherwise initiates contact with the Data Fiduciary for the specified purpose or exercises her rights,"**Under the Indian Data Protection and Data Privacy (DPDP) Rules, 2022**
+
+| Requirement | Detail |
+|-------------|--------|
+| **What the Data Fiduciary must do ≥ 48 hours before the erasure deadline** | The Data Fiduciary must **send a clear notice to the Data Principal** informing them that the personal data is scheduled to be erased and giving the Data Principal a minimum of **48 hours** to raise any objection or request that the erasure not be carried out. This notice must specify the date and time when the erasure will take place and the means by which the Data Principal can object. |
+| **What action by the Data Principal would stop the erasure** | If, within the 48‑hour window, the **Data Principal objects to the erasure** (i.e., formally requests that the data not be erased), the Data Fiduciary is **required to refrain from erasing the data** and must retain it until a further lawful basis for processing is established or the objection is withdrawn. |
+
+**Legal basis**
+
+- **Rule 5(2) of the DPDP Rules, 2022** (Right to Erasure) – obliges the Data Fiduciary to give the Data Principal at least 48 hours’ notice before erasing personal data.
+- **Rule 5(3) of the DPDP Rules, 2022** – states that if the Data Principal objects to the erasure within that notice period, the Data Fiduciary must not proceed with the erasure.
+
+Thus, the Data Fiduciary’s duty is to provide advance notice, and the Data Principal’s right to object within the 48‑hour period is the only action that can prevent the scheduled erasure.","The Rules require that **at least 48 hours before the scheduled erasure date, the Data Fiduciary must notify the Data Principal that her personal data will be deleted when the period ends**.  
+
+If, before that deadline, the Data Principal **logs into her user account, otherwise initiates contact with the Data Fiduciary for the performance of the specified purpose, or exercises any of her rights under the Act with respect to that data**, the scheduled erasure must not take place.","**Properly answers the question?** Yes - It correctly states the fiduciary’s 48‑hour notice requirement and the conditions (login, contact, or exercising rights) that would prevent erasure.  
+**Does it hallucinate?** No - No false or invented legal facts are introduced.  
+**Does it answer directly from the source?** Yes - The response paraphrases the source fact accurately without adding unsupported information."
+27,synthetic,Under what circumstance may a Data Fiduciary retain personal data and associated logs beyond the mandatory one‑year minimum retention period?,When further retention is required for compliance with any other law that is in force or has been notified by the Government.,"**Answer**
+
+Under the **Data Protection & Data Privacy (DPDP) Rules, 2023** (the “Rules”), a Data Fiduciary may keep personal data and the related processing logs **beyond the mandatory minimum retention period of one year** only when one (or more) of the following specific circumstances applies:
+
+| No. | Circumstance (as per the Rules) | Legal basis in the Rules |
+|-----|--------------------------------|--------------------------|
+| 1. | **Compliance with a legal or regulatory obligation** – e.g., a statute, rule, order of a court, tribunal, regulator, or any other law that expressly requires the data to be retained for a longer period. | **Rule 5(2)(a)** – “…unless otherwise required under any other law.” |
+| 2. | **Establishment, exercise or defence of a legal claim** – the data is needed as evidence or for the purpose of pursuing, defending, or settling a civil, criminal or administrative claim. | **Rule 5(2)(b)** – “…or for the purpose of establishing, exercising or defending a legal claim.” |
+| 3. | **Regulatory audit, investigation or oversight** – the Data Fiduciary must retain the data to enable a regulator (the Data Protection Board) or an authorized auditor to verify compliance with the DPDP Act and Rules. | **Rule 5(2)(c)** – “…or for the purpose of a regulatory audit, investigation or oversight.” |
+| 4. | **Statistical, research or archival purposes** – the data is retained in a **de‑identified or anonymised** form for legitimate research, statistical analysis, or historical archiving, provided that the safeguards prescribed in the Rules (e.g., purpose‑limitation, security measures, and no re‑identification) are observed. | **Rule 5(2)(d)** – “…or for statistical, research or archival purposes, subject to appropriate safeguards.” |
+| 5. | **Contractual obligations** – where the retention period is stipulated in a contract that the Data Fiduciary is bound by (e.g., service‑level agreements, partnership agreements) and that contract is enforceable under Indian law. | Implicitly covered under **Rule 5(2)(a)** (other law) and the principle of “legitimate purpose” in **Section 5(2) of the DPDP Act**. |
+
+### How the rule works in practice
+1. **Baseline requirement** – By default, the Data Fiduciary must delete or anonymise personal data **no later than one year** after the date of collection, unless a later date is justified under one of the above circumstances.  
+2. **Documented justification** – The Fiduciary must maintain a **record of the justification** for any extended retention (e.g., a copy of the statutory provision, court order, or a documented legal‑claim risk assessment).  
+3. **Security & purpose‑limitation** – Even when retained longer, the data must continue to be protected with the security safeguards required under **Rule 4** (technical and organisational measures) and must be used **only** for the purpose for which the extended retention is justified.  
+4. **Periodic review** – The Fiduciary should periodically review the necessity of the extended retention and delete the data as soon as the justification ceases to exist (e.g., once a legal claim is finally resolved).  
+
+### Bottom line
+A Data Fiduciary may retain personal data and associated logs beyond the one‑year minimum **only** when a specific legal, regulatory, or legitimate‑purpose exception under **Rule 5(2)** of the DPDP Rules applies, and the Fiduciary must be able to demonstrate that the extended retention is necessary, proportionate, and protected by appropriate safeguards.",A Data Fiduciary may keep the personal data and the related processing logs for **more than the one‑year minimum** only when **another law in force (or a Government notification) requires a longer period of retention**. In such cases the fiduciary must retain the data and logs for the duration prescribed by that other applicable legislation.,"**Properly answers the question?** Yes – it correctly states that retention beyond one year is allowed only when another law or a Government notification requires it.  
+**Does it hallucinate?** No – it does not introduce any false or unsupported legal facts.  
+**Does it answer directly from the source?** Yes – the response paraphrases the source fact accurately, reflecting the same condition for extended retention."
+28,synthetic,"What is the exact minimum retention duration for personal data, traffic data, and processing logs, and which schedule defines the permissible purposes for such retention?",A minimum period of one year from the date of processing; the permissible purposes are specified in the Seventh Schedule.,"**Minimum retention periods under the Indian Digital Personal Data Protection (DPDP) Rules**
+
+| Category of data | Minimum retention period (as per the DPDP Rules) |
+|------------------|---------------------------------------------------|
+| **Personal data** | **30 days** – The data must be retained for **not less than 30 days** from the date of collection or the date of the last processing activity. |
+| **Traffic data** | **180 days** – The data must be retained for **not less than 180 days** from the date of collection. |
+| **Processing logs** | **180 days** – The logs must be retained for **not less than 180 days** from the date of creation. |
+
+**Schedule that defines permissible purposes for retention**
+
+- The **permissible purposes** for which personal data, traffic data, and processing logs may be retained are enumerated in **Schedule 2 of the DPDP Rules** (titled *“Purposes for which personal data may be processed”*). This schedule lists the specific lawful objectives—such as performance of a contract, compliance with a legal obligation, protection of vital interests, legitimate interests of the data fiduciary, etc.—under which the data may be lawfully retained for the periods mentioned above.","The Rules require that a Data Fiduciary keep the personal data, the associated traffic data and the processing logs **for at least one year** from the date of the processing.  
+The purposes for which this minimum‑year retention is allowed are set out in **the Seventh Schedule** of the DPDP Rules.","**Properly answers the question?** Yes - It correctly states the minimum retention period (one year) and identifies the Seventh Schedule as defining the permissible purposes.  
+**Does it hallucinate?** No - No false or invented legal details are present; the answer aligns with the source fact.  
+**Does it answer directly from the source?** Yes - The response directly reflects the ground‑truth information."
