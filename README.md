@@ -44,8 +44,6 @@ Standard PDF loaders destroy structural formatting, which is fatal for legal doc
 
 ## 💻 Quick Start
 
-*Note: The frontend is currently configured for local execution. Public cloud deployment will be live shortly.*
-
 ```bash
 # Clone repository
 git clone [https://github.com/funcommitment/crag.git](https://github.com/funcommitment/crag.git)
