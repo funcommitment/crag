@@ -1,4 +1,5 @@
-# Corrective RAG (CRAG) for Regulatory Legal Text (Link: https://iutrvcydgdg3cgtdfb8d67.streamlit.app/)
+# Corrective RAG (CRAG) for Regulatory Legal Text 
+Link: https://iutrvcydgdg3cgtdfb8d67.streamlit.app/
 
 A production-grade Corrective Retrieval-Augmented Generation (CRAG) pipeline designed to query the Indian Digital Personal Data Protection (DPDP) Act with zero hallucinations. 
 
